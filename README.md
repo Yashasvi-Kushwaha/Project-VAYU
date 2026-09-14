@@ -589,7 +589,7 @@ This moves airfare analysis from a single aggregate number toward a **high-frequ
 
 **Team Name:** Psi Square
 
-**Project:** Airfare Price Index — India
+**Project:** Project VAYU- Value Analysis of Yield & Utility
 
 **SIH Problem Statement:** SIH26056
 
