@@ -358,18 +358,18 @@ The architecture is designed to expand to additional routes and sources.
 # 📁 Project Structure
 
 ```text
-airfare-price-index-india/
+Project-VAYU/
 │
 ├── scraper/
-│   └── ...
+│   └── flight_scraper.py
 │
 ├── pipeline/
 │   ├── fake_data_generator.py
-│   ├── load_fake_data.py
-│   └── ...
+│   |── load_fake_data.py
 │
 ├── index_engine/
-│   └── ...
+│   └── credebility.py
+|   |__ jevons.py
 │
 ├── database/
 │   ├── models.py
@@ -384,10 +384,7 @@ airfare-price-index-india/
 │   └── style.css
 │
 ├── tests/
-│   └── ...
-│
-├── data_sources/
-│   └── ...
+│   └── test_fake_observation
 │
 └── README.md
 ```
@@ -399,8 +396,8 @@ airfare-price-index-india/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd airfare-price-index-india
+git clone <https://github.com/Yashasvi-Kushwaha/Project-VAYU.git>
+cd Project-VAYU
 ```
 
 Install dependencies:
